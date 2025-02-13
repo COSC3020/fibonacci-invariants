@@ -1,3 +1,4 @@
-// eslint-disable-next-line no-unused-varsfunction fib(n) {
+// eslint-disable-next-line no-unused-vars
+function fib(n) {
     return n;
 }
