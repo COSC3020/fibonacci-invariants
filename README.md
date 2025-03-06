@@ -2,8 +2,8 @@
 
 Recall the definition of the Fibonacci series: the first number is 0, the second
 1, and each subsequent number is the sum of the two numbers preceding it.
-Implement a function that computes the Fibonacci numbers recursively, storing
-the results in an array.
+Implement a function that computes the Fibonacci numbers (recursively or
+iteratively), storing the results in an array.
 
 For example, the return value of `fib(7)` is the following array:
 
@@ -17,12 +17,12 @@ testing code that uses [jsverify](https://jsverify.github.io/) in
 
 ## Invariant
 
-What is a good invariant for your recursive implementation of `fib()`
-i.e. something that is always true at the beginning of the recursive call?
+What is a good invariant for your implementation of `fib()` i.e. something that
+is always true at the beginning of the recursive call or iteration?
 
 Hint: Think about what the "state of the world" is here and what you can say
-about it at the start of each recursive call. Your invariant must say something
-about the current recursive call.
+about it at the start. Your invariant must say something about the current
+recursive call or iteration.
 
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
